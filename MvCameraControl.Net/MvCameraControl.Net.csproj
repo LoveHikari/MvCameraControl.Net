@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageId>MvCameraControl.Net.Standard</PackageId>
+		<Description>海康视觉相机SDK</Description>
+		<Version>4.4.1.3</Version>
+		<Company>5cm R &amp; D department</Company>
+		<Authors>Asanoame</Authors>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<PackageReleaseNotes>
+			MVS V4.4.0是为支持海康机器视觉相机产品而开发的软件应用程序，适用于所有海康机器视觉面阵以及线阵相机产品。
+			MVS包含了客户端，IP配置工具，固件升级工具，导入/导出属性工具、日志查看工具、网卡配置工具，驱动管理工具，
+			系统信息工具，诊断工具，带宽管理工具，SDK和Demo。
+		</PackageReleaseNotes>
+		<PackageProjectUrl>https://github.com/LoveHikari/MvCameraControl.Net</PackageProjectUrl>
+		<PackageTags>common</PackageTags>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Copyright>Copyright (c) Hikari.</Copyright>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="System.Drawing.Common" Version="9.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="../README.md" pack="true" PackagePath="." />
+	</ItemGroup>
+</Project>
